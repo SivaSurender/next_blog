@@ -1,7 +1,7 @@
-import React from "react";
+import PostContent from "../../components/posts/post-detail/post-content";
 
 function PostDetial() {
-  return <div>PostDetial</div>;
+  return <PostContent />;
 }
 
 export default PostDetial;
