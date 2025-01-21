@@ -44,6 +44,9 @@ export default function ContactForm() {
         name: enteredName,
       });
       setRequestStatus("success");
+      setEnteredMessage("");
+      setEnteredName("");
+      setEnteredEmail("");
     } catch (error) {
       setRequestStatus("error");
       setErr(err);
